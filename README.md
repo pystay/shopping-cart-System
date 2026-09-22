@@ -1,7 +1,9 @@
 # shopping-cart-System
 #事先声明：本人只是一名刚上大学的学生，这个项目只是来练习和锻炼我的代码能力的，如果有不好的地方也请各位谅解以及指点一下不足的地方，谢谢！
 A simple shopping cart system built with Python, for learning OOP and data structures.
-智能购物车系统 (Smart Cart)
+##设计蓝图
+#智能购物车系统 (Smart Cart)
+'''text
 │
 ├── 1. 角色与权限 (Roles)
 │   ├── 普通用户 (User)
@@ -14,8 +16,8 @@ A simple shopping cart system built with Python, for learning OOP and data struc
 │   │   ├── 发布商品
 │   │   └── 管理库存与店铺优惠
 │   └── 平台管理员 (Admin / Root)
-│       ├── 最高权限
-│       ├── 管理用户与商家
+       ├── 最高权限
+       ├── 管理用户与商家
 │       └── 全局审核与风控
 │
 ├── 2. 核心数据实体 (Data Models)
@@ -62,3 +64,4 @@ A simple shopping cart system built with Python, for learning OOP and data struc
     │   └── 基础版 -> 优化版 -> 重构版
     └── 标注“初学者友好”
         └── 欢迎指点交流
+'''
