@@ -68,3 +68,22 @@ A simple shopping cart system built with Python, for learning OOP and data struc
     │   └── 基础版 -> 优化版 -> 重构版
     └── 标注“初学者友好”
         └── 欢迎指点交流
+
+
+进度追踪 (Progress)
+
+    ☑
+
+    搭建项目基础结构
+    ☑
+
+    完成 User / Product / ShoppingCart 类的初步定义
+    □
+
+    实现购物车的增删改查逻辑
+    □
+
+    引入满减优惠与 VIP 折扣计算
+    □
+
+    接入 MySQL 数据库（进阶目标）
