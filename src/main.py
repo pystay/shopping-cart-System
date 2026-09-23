@@ -27,3 +27,13 @@ class ShoppingCart:
     def add_item(self,product_id:int, quantity: int = 1):
         #加入购物车逻辑
         pass
+
+#======测试代码======
+if __name__ == '__main__':
+    #1.创建用户
+    user = User("pystay", 1001)
+    print(user)
+
+    #2.创建商品
+    product = Product("Python_Learn_Book", 101, 19.9, 10, 5001)
+    print(product)
