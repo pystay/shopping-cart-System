@@ -20,7 +20,7 @@ class Product:
                 f" 商品数量：{self.product_numbers}\n"
                 f"商品所属商家ID：{self.product_shop_id}")
     def __repr__(self):
-        return f"Product({self.product_name!r}, id={self.product_id!r})y"
+        return f"Product({self.product_name!r}, id={self.product_id!r})"
 
 class Admin:
     def __init__(self, admin_name, admin_id):
