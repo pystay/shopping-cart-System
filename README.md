@@ -78,7 +78,7 @@ A simple shopping cart system built with Python, for learning OOP and data struc
     ☑
 
     完成 User / Product / ShoppingCart 类的初步定义
-    □
+    ☑
 
     实现购物车的增删改查逻辑
     □
