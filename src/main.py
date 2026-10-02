@@ -13,6 +13,7 @@ if __name__ == '__main__':
     cart.add_item(101, 2)
     cart.add_item(102, 1)
     cart.add_item(101, 1) #重复购买
+    print(f"购物车商品总价：{cart.compute_total():.2f}")
     print(len(cart.items))
 
     cart.remove_item(101)

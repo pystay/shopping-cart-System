@@ -48,3 +48,23 @@ class ShoppingCart:  #购物车类
         #若找不到商品将返回错误
         raise ValueError(f"该商品ID {product_id} 未存在！")
 
+    #计算系统
+    def compute_total(self):
+        '''计算购物车商品总价（原价）'''
+        total = 0
+        for item in self.items:
+            total += item.subtotal
+        return total
+
+    #购物车展示
+    def show_cart(self):
+        '''打印购物车内容'''
+        if not self.items:
+            print("购物车未有需支付商品!!!")
+            return
+
+        print(f"=== {self.user.user_name} 的购物车 ===")
+        for item in self.items:
+            print(f"{item.product.product_name} x {item.quantity} = ￥{item.subtotal:.2f}")
+            print(f"总价： ￥{self.compute_total():.2f}")
+            print("================================")
